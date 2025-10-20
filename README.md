@@ -1,4 +1,4 @@
-## Hi there 👋
+
 
 <!--
 **kiirecodes/kiirecodes** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -14,3 +14,211 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<style>
+:root{
+  --bg:#f7f8fa;--text:#1a1a1a;--accent:#0078ff;--accent-gradient:linear-gradient(45deg,#0078ff,#00c6ff);
+  --secondary:#555;--card-bg:#fff;--btn-gradient:linear-gradient(135deg,#0078ff,#00c6ff);
+}
+body.dark{
+  --bg:#121212;--text:#f0f0f0;--accent:#3399ff;--accent-gradient:linear-gradient(45deg,#3399ff,#66ccff);
+  --secondary:#bbb;--card-bg:#1e1e1e;--btn-gradient:linear-gradient(135deg,#3399ff,#66ccff);
+}
+*{margin:0;padding:0;box-sizing:border-box;font-family:"Poppins",sans-serif;transition:all 0.4s;}
+body{background:var(--bg);color:var(--text);line-height:1.6;scroll-behavior:smooth;overflow-x:hidden;position:relative;}
+canvas#bgParticles{position:fixed;top:0;left:0;width:100%;height:100%;z-index:-1;pointer-events:none;}
+
+/* Header */
+header{background:var(--card-bg);box-shadow:0 2px 12px rgba(0,0,0,0.08);padding:1.2rem 3rem;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:1000;border-radius:0 0 12px 12px;}
+header h1{font-size:1.8rem;background:var(--accent-gradient);-webkit-background-clip:text;-webkit-text-fill-color:transparent;}
+nav a{margin-left:1.5rem;color:var(--secondary);text-decoration:none;font-weight:500;transition:all 0.3s;}
+nav a:hover{background:var(--accent-gradient);-webkit-background-clip:text;-webkit-text-fill-color:transparent;}
+#themeToggle{background:none;border:none;cursor:pointer;font-size:1.4rem;color:var(--accent);transition:transform 0.3s;}
+#themeToggle:hover{transform:rotate(20deg);}
+
+/* Hero Section */
+.hero{
+  text-align:center;
+  padding:6rem 2rem 8rem 2rem;
+  position:relative;
+  background:var(--bg);
+  border-radius:12px;
+  box-shadow:0 6px 20px rgba(0,0,0,0.05);
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+}
+.hero h2{font-size:3rem;background:var(--accent-gradient);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:0.5rem;}
+.typewriter{
+  font-size:1.5rem;
+  color:var(--secondary);
+  margin-top:0.5rem;
+  display:block;
+  border-right:2px solid var(--accent);
+  padding-right:2px;
+  margin-bottom:1.5rem;
+  height:auto;
+}
+.btn-cv{
+  display:inline-block;
+  margin-top:0;
+  padding:0.9rem 2rem;
+  background:var(--btn-gradient);
+  color:#fff;
+  font-weight:600;
+  border-radius:12px;
+  text-decoration:none;
+  font-size:1.05rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.btn-cv:hover{transform:translateY(-4px) scale(1.05);box-shadow:0 10px 25px rgba(0,0,0,0.15);}
+
+/* Sections */
+section{padding:4rem 3rem;max-width:1000px;margin:auto;opacity:0;transform:translateY(30px) scale(0.95);transition:opacity 1s ease,transform 0.8s ease;border-radius:12px;margin-bottom:2rem;background:linear-gradient(135deg,#ffffff,#f0f4ff);box-shadow:0 6px 18px rgba(0,0,0,0.03);}
+body.dark section{background:linear-gradient(135deg,#1e1e1e,#262626);}
+section.visible{opacity:1;transform:translateY(0) scale(1);}
+.skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:1.2rem;margin-top:2rem;}
+.skill{background:var(--card-bg);padding:1.5rem;border-radius:12px;text-align:center;box-shadow:0 2px 12px rgba(0,0,0,0.05);transition:transform 0.3s,box-shadow 0.3s,opacity 0.6s;}
+body.dark .skill{background:linear-gradient(135deg,#1e1e1e,#262626);}
+.skill:hover{transform:translateY(-5px) scale(1.05);box-shadow:0 8px 18px rgba(0,0,0,0.15);}
+.skill i{font-size:2.2rem;background:var(--accent-gradient);-webkit-background-clip:text;-webkit-text-fill-color:transparent;}
+.skill h3{margin-top:0.8rem;font-size:1.1rem;}
+.projects{margin-top:2rem;}
+.project{background:var(--card-bg);padding:1.5rem;border-radius:12px;margin-bottom:1.5rem;box-shadow:0 2px 12px rgba(0,0,0,0.05);transition:transform 0.3s,box-shadow 0.3s,opacity 0.6s,transform 0.6s;}
+body.dark .project{background:linear-gradient(135deg,#1e1e1e,#262626);}
+.project:hover{transform:translateY(-5px) scale(1.02);box-shadow:0 8px 20px rgba(0,0,0,0.15);}
+.project h3{color:var(--accent);}
+.contact{text-align:center;}
+.socials{margin-top:1.5rem;display:flex;justify-content:center;gap:1.2rem;position:relative;}
+.socials a{color:var(--accent);font-size:1.6rem;transition: all 0.3s ease;display:inline-flex;align-items:center;justify-content:center;position:relative;}
+.socials a:hover{color:var(--text);transform:scale(1.3) rotate(10deg);}
+.socials a::after{content:"";width:8px;height:8px;background:var(--accent);border-radius:50%;position:absolute;top:-5px;left:-5px;opacity:0;transition:opacity 0.3s, transform 0.3s;}
+.socials a:hover::after{opacity:1;transform:scale(1.5);}
+footer{text-align:center;padding:1rem;background:var(--card-bg);border-top:1px solid #eee;color:var(--secondary);border-radius:12px;}
+.float-shape{position:absolute;border-radius:50%;opacity:0.15;animation:float 12s infinite ease-in-out alternate;z-index:0;box-shadow:0 8px 20px rgba(0,0,0,0.1);}
+@keyframes float{0%{transform:translateY(0) rotate(0deg);}50%{transform:translateY(-25px) rotate(180deg);}100%{transform:translateY(0) rotate(360deg);}}
+.hero svg{position:absolute;bottom:0;left:50%;transform:translateX(-50%);width:100%;max-height:220px;opacity:0.25;}
+@media(max-width:768px){header{flex-direction:column;text-align:center;}nav a{display:inline-block;margin:0.5rem;} .hero h2{font-size:2.4rem;} .typewriter{font-size:1.3rem;} .skills{grid-template-columns:repeat(auto-fit,minmax(120px,1fr));}}
+</style>
+</head>
+<body>
+
+<canvas id="bgParticles"></canvas>
+
+<div class="float-shape" style="width:60px;height:60px;top:15%;left:12%;background:#0078ff;"></div>
+<div class="float-shape" style="width:90px;height:90px;top:55%;left:78%;background:#3399ff;"></div>
+<div class="float-shape" style="width:45px;height:45px;top:40%;left:52%;background:#00c6ff;"></div>
+
+<header>
+<h1>Kiire Constantine</h1>
+<div style="display:flex;align-items:center;gap:1rem;">
+<nav><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a></nav>
+<button id="themeToggle" title="Toggle theme"><i class="fa-solid fa-moon"></i></button>
+</div>
+</header>
+
+<section class="hero" id="about">
+<h2>Hello, I'm Kiire Constantine</h2>
+<div class="typewriter" id="typewriter"></div>
+<a href="http://kiirecodes.pages.dev/" target="_blank" class="btn-cv">Download CV</a>
+<svg viewBox="0 0 1440 320" preserveAspectRatio="none">
+<path fill="#0078ff" fill-opacity="0.2" d="M0,160L1440,64L1440,320L0,320Z"></path>
+</svg>
+</section>
+
+<section id="skills"><h2>My Skills</h2>
+<div class="skills">
+<div class="skill"><i class="fa-solid fa-code"></i><h3>Zig</h3></div>
+<div class="skill"><i class="fa-brands fa-rust"></i><h3>Rust</h3></div>
+<div class="skill"><i class="fa-solid fa-terminal"></i><h3>C++</h3></div>
+  <div class="skill"><i class="fa-solid fa-c"></i><h3>C</h3></div>
+<div class="skill"><i class="fa-brands fa-html5"></i><h3>HTML & CSS</h3></div>
+<div class="skill"><i class="fa-brands fa-js"></i><h3>JavaScript</h3></div>
+<div class="skill"><i class="fa-brands fa-java"></i><h3>Java</h3></div>
+<div class="skill"><i class="fa-solid fa-hashtag"></i><h3>C# / .NET</h3></div>
+<div class="skill"><i class="fa-brands fa-python"></i><h3>Python</h3></div>
+  <div class="skill"><i class="fa-brands fa-golang"></i><h3>Golang</h3></div>
+</div></section>
+
+<section id="projects"><h2>What I Build</h2>
+<div class="projects">
+<div class="project"><h3>Cross-Platform Applications</h3><p>I develop modern, responsive, and powerful apps using .NET technologies and native UI frameworks.</p></div>
+<div class="project"><h3>Web Development</h3><p>I create fast, scalable websites using HTML, CSS, JavaScript, and modern frameworks.</p></div>
+<div class="project"><h3>Systems Programming</h3><p>Using Zig, Rust, and C, I build efficient low-level software and experiment with kernel and compiler design.</p></div>
+<div class="project"><h3>Coaching</h3><p>I teach programming principles, helping others write clean, optimized, and maintainable code.</p></div>
+</div></section>
+
+<section id="contact" class="contact"><h2>Let's Connect</h2>
+<div class="socials">
+<a href="http://kiirecodes.pages.dev/" target="_blank"><i class="fa-solid fa-globe"></i></a>
+<a href="https://x.com/coding_simply?t=h07piTM45wPuuP9PqokDMA&s=09" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+<a href="https://discord.gg/e2aYtCWKZx" target="_blank"><i class="fa-brands fa-discord"></i></a>
+<a href="https://youtube.com/@kiire_codes-ft9qb?si=ZMNfZzzJoOZHSa6u" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+</div></section>
+
+<footer>© 2025 Kiire Constantine. All rights reserved.</footer>
+
+<script>
+// Smooth scroll
+document.querySelectorAll('nav a').forEach(l=>l.addEventListener('click',e=>{
+  e.preventDefault();
+  document.querySelector(l.getAttribute('href')).scrollIntoView({behavior:'smooth'});
+}));
+
+// Dark mode toggle
+const toggle=document.getElementById('themeToggle'),icon=toggle.querySelector('i');
+if(localStorage.getItem('theme')==='dark'){document.body.classList.add('dark');icon.classList.replace('fa-moon','fa-sun');}
+toggle.addEventListener('click',()=>{
+  document.body.classList.toggle('dark');
+  localStorage.setItem('theme',document.body.classList.contains('dark')?'dark':'light');
+  icon.classList.toggle('fa-moon');icon.classList.toggle('fa-sun');
+});
+
+// Typewriter
+const roles=["Software Developer","Systems Programmer","Cross-Platform App Creator","Web Developer","Programming Coach"];
+let i=0,j=0,isDeleting=false;
+const tw=document.getElementById("typewriter");
+function type(){const c=roles[i];tw.textContent=c.substring(0,j);if(!isDeleting&&j<c.length){j++;setTimeout(type,100);}
+else if(isDeleting&&j>0){j--;setTimeout(type,50);}
+else{if(!isDeleting){isDeleting=true;setTimeout(type,1500);}else{i=(i+1)%roles.length;isDeleting=false;setTimeout(type,300);}}}
+setTimeout(type,1000);
+
+// Scroll reveal
+const sections=document.querySelectorAll('section');
+function reveal(){
+  const w=window.innerHeight*0.85;
+  sections.forEach(s=>{
+    if(s.getBoundingClientRect().top<w){
+      s.classList.add('visible');
+      s.querySelectorAll('.skill').forEach((sk,index)=>setTimeout(()=>sk.classList.add('visible'),index*150));
+      s.querySelectorAll('.project').forEach((pr,index)=>setTimeout(()=>pr.classList.add('visible'),index*200));
+    }
+  });
+}
+window.addEventListener('scroll',reveal);
+window.addEventListener('load',reveal);
+
+// Particles
+const canvas=document.getElementById('bgParticles');
+const ctx=canvas.getContext('2d');
+canvas.width=window.innerWidth;
+canvas.height=window.innerHeight;
+let particles=[];
+const pCount=window.innerWidth<768?50:120;
+class Particle{
+  constructor(){this.x=Math.random()*canvas.width;this.y=Math.random()*canvas.height;this.size=Math.random()*3+1;this.speedX=Math.random()*1-0.5;this.speedY=Math.random()*1-0.5;}
+  update(){this.x+=this.speedX;this.y+=this.speedY;if(this.x<0)this.x=canvas.width;if(this.x>canvas.width)this.x=0;if(this.y<0)this.y=canvas.height;if(this.y>canvas.height)this.y=0;}
+  draw(){ctx.beginPath();ctx.arc(this.x,this.y,this.size,0,Math.PI*2);ctx.fillStyle='rgba(0,120,255,0.2)';ctx.fill();}
+}
+for(let i=0;i<pCount;i++)particles.push(new Particle());
+function animate(){
+  ctx.clearRect(0,0,canvas.width,canvas.height);
+  particles.forEach(p=>{p.update();p.draw();});
+  requestAnimationFrame(animate);
+}
+animate();
+window.addEventListener('resize',()=>{canvas.width=window.innerWidth;canvas.height=window.innerHeight;});
+</script>
+
+</body>
