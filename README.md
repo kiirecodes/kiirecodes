@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?lines=Self-taught+Software+Developer;Systems+Programming+Enthusiast;Backend+Engineer+in+Progress;Always+Learning+%F0%9F%9A%80&font=Fira%20Code&center=true&width=520&height=45&color=38BDF8&vCenter=true&pause=1000">
+  <img src="https://readme-typing-svg.demolab.com/?lines=Backend+Engineer+in+Progress;Systems+Programming+Enthusiast;Rust+%7C+Go+%7C+Zig;Open+to+Opportunities&font=Fira%20Code&center=true&width=520&height=45&color=38BDF8&vCenter=true&pause=1000">
 </p>
 
 <p align="center">
@@ -12,65 +12,94 @@
 
 ---
 
-## 🚀 About Me
+## 👨‍💻 About Me
 
-💻 Self-taught developer focused on **systems programming & backend engineering**  
-🧠 I learn by **deep understanding**, not surface tutorials  
-🐧 Daily driver: **Arch Linux + Neovim**  
-🎯 Currently building real-world projects  
+Self-taught **backend & systems developer** with a strong interest in **low-level programming** and **high-performance systems**.
+
+I enjoy understanding how things work under the hood and building reliable software from first principles.
+
+- Daily environment: **Arch Linux + Neovim**
+- Strong focus on:
+  - Backend engineering
+  - System design
+  - Performance & memory safety
+- Actively building production-ready projects
 
 ---
 
-## ⚙️ Tech Stack
+## 🛠 Technical Skills
 
-### 🧩 Languages
-<p>
-  <img src="https://skillicons.dev/icons?i=rust,go,c,zig,java,js,ts,html,css" />
-</p>
+### Languages
+- Rust
+- Go
+- C
+- Zig
+- Java
+- JavaScript / TypeScript
 
-### 🏗 Frameworks & Tools
-<p>
-  <img src="https://skillicons.dev/icons?i=react,git,github,linux" />
-</p>
-
+### Backend & Systems
 - Axum, Actix (Rust)
 - Phoenix (Elixir)
-- Tokio (Async)
-- React Native
+- Tokio async runtime
+- REST API design
 - CMake
+- Linux systems
+
+### Tools
+- Git & GitHub
+- Docker (learning)
+- CI/CD (learning)
+- Linux CLI
 
 ---
 
-## 🧠 Interests
+## ⭐ Featured Projects
 
-✨ Systems programming  
-✨ OS development (Zig kernel experiments)  
-✨ Backend architecture  
-✨ Performance & memory safety  
-✨ Startup engineering  
+> *(Replace repo names when you publish them)*
 
----
+### 🔐 Auth Service (Rust)
+**Tech:** Rust, Axum, JWT, PostgreSQL  
+**What it shows:**
+- Secure authentication
+- Clean API design
+- Error handling
+- Database integration  
 
-## 🎯 Current Focus
-
-- Building production-ready projects  
-- Writing clean maintainable code  
-- Learning:
-  - Testing
-  - CI/CD
-  - Deployment
-  - System design
+🔗 Repo: `github.com/kiirecodes/auth-service`
 
 ---
 
-## 🛠 Projects
+### ⚡ High Performance API (Go)
+**Tech:** Go, HTTP, middleware  
+**What it shows:**
+- Concurrency
+- API structuring
+- Logging
+- Production patterns  
 
-🚧 In progress:
-- Rust backend services  
-- Zig system tools  
-- React Native apps  
+🔗 Repo: `github.com/kiirecodes/go-api`
 
-*(Polishing for public release)*
+---
+
+### 🧠 Zig Kernel Experiments
+**Tech:** Zig, x86, bare metal  
+**What it shows:**
+- Low-level programming
+- Memory management
+- Boot process understanding  
+
+🔗 Repo: `github.com/kiirecodes/zig-kernel`
+
+---
+
+### 📱 Mobile App (React Native)
+**Tech:** React Native, TypeScript  
+**What it shows:**
+- Mobile UI
+- API consumption
+- State management  
+
+🔗 Repo: `github.com/kiirecodes/mobile-app`
 
 ---
 
@@ -81,26 +110,34 @@
   <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kiirecodes&layout=compact&theme=github_dark&hide_border=true" />
 </p>
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=kiirecodes&theme=github-dark&hide_border=true" />
-</p>
+---
+
+## 🎯 What I'm Looking For
+
+- Backend engineer role
+- Systems programming roles
+- Junior–mid level positions
+- Startup environments
+- Mentorship & growth
 
 ---
 
-## 📈 Activity Graph
+## 💡 Why Hire Me?
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kiirecodes&theme=github-dark&hide_border=true" />
-</p>
+✔ Strong fundamentals  
+✔ Debugging mindset  
+✔ Self-driven learner  
+✔ Linux power user  
+✔ Comfortable with low-level concepts  
+✔ Serious about engineering  
 
 ---
 
-## 🤝 Open To
+## 📬 Contact
 
-✅ Open source  
-✅ Collaboration  
-✅ Startup ideas  
-✅ Learning opportunities  
+- GitHub: https://github.com/kiirecodes
+- LinkedIn: *(add when ready)*
+- Email: *(optional)*
 
 ---
 
