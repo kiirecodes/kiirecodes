@@ -3,21 +3,21 @@
 </h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?lines=Self-taught+Software+Developer;Systems+Programming+Enthusiast;Backend+Engineer+in+Progress;Always+Learning+%F0%9F%9A%80&font=Fira%20Code&center=true&width=500&height=50&color=58A6FF&vCenter=true&pause=1000">
+  <img src="https://readme-typing-svg.demolab.com/?lines=Self-taught+Software+Developer;Systems+Programming+Enthusiast;Backend+Engineer+in+Progress;Always+Learning+%F0%9F%9A%80&font=Fira%20Code&center=true&width=520&height=45&color=38BDF8&vCenter=true&pause=1000">
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=kiireconstantine&label=Profile%20views&color=0e75b6&style=flat" />
+  <img src="https://komarev.com/ghpvc/?username=kiireconstantine&label=Profile%20views&color=38BDF8&style=flat" />
 </p>
 
 ---
 
 ## 🚀 About Me
 
-💻 Self-taught developer passionate about **systems programming** and **backend engineering**.  
-🧠 I focus on **deep understanding**, not just using tools.  
+💻 Self-taught developer focused on **systems programming & backend engineering**  
+🧠 I learn by **deep understanding**, not surface tutorials  
 🐧 Daily driver: **Arch Linux + Neovim**  
-🎯 Currently building real-world projects and leveling up professionally.
+🎯 Currently building real-world projects
 
 ---
 
@@ -33,19 +33,18 @@
   <img src="https://skillicons.dev/icons?i=react,git,github,linux" />
 </p>
 
-- Axum & Actix (Rust)
+- Axum, Actix (Rust)
 - Phoenix (Elixir)
 - Tokio (Async)
-- CMake
-- REST API design
 - React Native
+- CMake
 
 ---
 
-## 🧠 Areas of Interest
+## 🧠 Interests
 
 ✨ Systems programming  
-✨ OS development (Zig kernel experiments)  
+✨ OS dev (Zig kernel experiments)  
 ✨ Backend architecture  
 ✨ Performance & memory safety  
 ✨ Startup engineering  
@@ -54,36 +53,52 @@
 
 ## 🎯 Current Focus
 
-🔹 Building complete projects  
-🔹 Writing clean & maintainable code  
-🔹 Learning:
-- Testing
-- CI/CD
-- Deployment
-- Software design patterns
+- Building production-ready projects  
+- Writing clean maintainable code  
+- Learning:
+  - Testing
+  - CI/CD
+  - Deployment
+  - System design
 
 ---
 
-## 🛠 Projects (WIP)
+## 🛠 Projects
 
-🚧 Currently building:
+🚧 In progress:
+- Rust backend services
+- Zig system tools
+- React Native apps
 
-- Rust backend services  
-- Zig system experiments  
-- React Native apps  
-
-*(More coming soon — polishing for public release)*
+*(Polishing for public release)*
 
 ---
 
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kiireconstantine&show_icons=true&theme=tokyonight" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=kiireconstantine&show_icons=true&theme=github_dark&hide_border=true" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kiireconstantine&layout=compact&theme=github_dark&hide_border=true" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=kiireconstantine&theme=tokyonight" />
+  <img src="https://streak-stats.demolab.com?user=kiireconstantine&theme=github-dark&hide_border=true" />
+</p>
+
+---
+
+## 📈 Activity Graph
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kiireconstantine&theme=github-dark&hide_border=true" />
+</p>
+
+---
+
+## 🐍 Contribution Snake Animation
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/kiireconstantine/kiireconstantine/output/github-contribution-grid-snake.svg" />
 </p>
 
 ---
@@ -97,12 +112,6 @@
 
 ---
 
-## 🧩 Fun Fact
-
-> I enjoy breaking things just to understand how they work 😄
-
----
-
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0e75b6&height=100&section=footer"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=38BDF8&height=120&section=footer"/>
 </p>
