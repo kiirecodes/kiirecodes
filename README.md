@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=kiireconstantine&label=Profile%20views&color=38BDF8&style=flat" />
+  <img src="https://komarev.com/ghpvc/?username=kiirecodes&label=Profile%20views&color=38BDF8&style=flat" />
 </p>
 
 ---
@@ -77,12 +77,12 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=kiireconstantine&show_icons=true&theme=github_dark&hide_border=true" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kiireconstantine&layout=compact&theme=github_dark&hide_border=true" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=kiirecodes&show_icons=true&theme=github_dark&hide_border=true" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kiirecodes&layout=compact&theme=github_dark&hide_border=true" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=kiireconstantine&theme=github-dark&hide_border=true" />
+  <img src="https://streak-stats.demolab.com?user=kiirecodes&theme=github-dark&hide_border=true" />
 </p>
 
 ---
@@ -90,7 +90,7 @@
 ## 📈 Activity Graph
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kiireconstantine&theme=github-dark&hide_border=true" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kiirecodes&theme=github-dark&hide_border=true" />
 </p>
 
 ---
@@ -98,7 +98,7 @@
 ## 🐍 Contribution Snake Animation
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/kiireconstantine/kiireconstantine/output/github-contribution-grid-snake.svg" />
+  <img src="https://raw.githubusercontent.com/kiirecodes/kiirecodes/output/github-contribution-grid-snake.svg" />
 </p>
 
 ---
