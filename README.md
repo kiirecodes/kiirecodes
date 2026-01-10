@@ -1,93 +1,108 @@
-# Hi, I'm Kiire Constantine 👋
+<h1 align="center">
+  Hi 👋, I'm Kiire Constantine
+</h1>
 
-Self-taught software developer with a strong interest in systems programming, backend engineering, and low-level technologies. I enjoy deeply understanding how things work rather than just using abstractions.
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com/?lines=Self-taught+Software+Developer;Systems+Programming+Enthusiast;Backend+Engineer+in+Progress;Always+Learning+%F0%9F%9A%80&font=Fira%20Code&center=true&width=500&height=50&color=58A6FF&vCenter=true&pause=1000">
+</p>
 
-Currently focused on improving my engineering skills through real projects, exploring system design, and building production-ready applications.
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=kiireconstantine&label=Profile%20views&color=0e75b6&style=flat" />
+</p>
 
 ---
 
-## 🛠 Technical Skills
+## 🚀 About Me
 
-### Languages
-- Rust
-- Go
-- C
-- Zig
-- Java
-- JavaScript / TypeScript
-- HTML & CSS
+💻 Self-taught developer passionate about **systems programming** and **backend engineering**.  
+🧠 I focus on **deep understanding**, not just using tools.  
+🐧 Daily driver: **Arch Linux + Neovim**  
+🎯 Currently building real-world projects and leveling up professionally.
 
-### Backend & Frameworks
-- Axum (Rust)
-- Actix (Rust)
+---
+
+## ⚙️ Tech Stack
+
+### 🧩 Languages
+<p>
+  <img src="https://skillicons.dev/icons?i=rust,go,c,zig,java,js,ts,html,css" />
+</p>
+
+### 🏗 Frameworks & Tools
+<p>
+  <img src="https://skillicons.dev/icons?i=react,git,github,linux" />
+</p>
+
+- Axum & Actix (Rust)
 - Phoenix (Elixir)
-- Basic REST API design
-- Async programming (Tokio)
-
-### Mobile & Frontend
-- React Native
-- Web fundamentals (HTML, CSS, JS)
-
-### Tools & Environment
-- Arch Linux (Hyprland)
-- Neovim
-- Git & GitHub
+- Tokio (Async)
 - CMake
-- Linux CLI
+- REST API design
+- React Native
 
 ---
 
-## 🔍 Areas of Interest
+## 🧠 Areas of Interest
 
-- Systems programming
-- Operating system development (kernel exploration in Zig)
-- Backend architecture
-- Performance & memory safety
-- Startup engineering
-- Developer productivity
-
----
-
-## 📌 Current Focus
-
-- Building complete, well-documented projects
-- Improving software design skills
-- Writing cleaner, maintainable code
-- Learning testing and CI/CD practices
-- Preparing for real-world engineering roles
+✨ Systems programming  
+✨ OS development (Zig kernel experiments)  
+✨ Backend architecture  
+✨ Performance & memory safety  
+✨ Startup engineering  
 
 ---
 
-## 🚀 Projects
+## 🎯 Current Focus
 
-> (Work in progress – actively building and improving)
-
-- Backend services in Rust (Axum / Actix)
-- System-level experiments in Zig
-- Mobile apps using React Native
+🔹 Building complete projects  
+🔹 Writing clean & maintainable code  
+🔹 Learning:
+- Testing
+- CI/CD
+- Deployment
+- Software design patterns
 
 ---
 
-## 📈 Goals
+## 🛠 Projects (WIP)
 
-- Become a strong backend/systems engineer
-- Build production-grade software
-- Launch useful products
-- Grow into a well-rounded entrepreneur
+🚧 Currently building:
+
+- Rust backend services  
+- Zig system experiments  
+- React Native apps  
+
+*(More coming soon — polishing for public release)*
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=kiireconstantine&show_icons=true&theme=tokyonight" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=kiireconstantine&theme=tokyonight" />
+</p>
 
 ---
 
 ## 🤝 Open To
 
-- Collaboration
-- Open-source contributions
-- Learning opportunities
-- Startup ideas
+✅ Open source  
+✅ Collaboration  
+✅ Startup ideas  
+✅ Learning opportunities  
 
 ---
 
-> "I believe in mastering fundamentals and learning by building."
+## 🧩 Fun Fact
+
+> I enjoy breaking things just to understand how they work 😄
 
 ---
-- 😄 Pronouns: He/Him
-- ⚡ Fun fact: I use Arch and Neovim BTW
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0e75b6&height=100&section=footer"/>
+</p>
