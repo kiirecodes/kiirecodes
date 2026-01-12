@@ -98,7 +98,7 @@
 ## 🐍 Contribution Snake Animation
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/kiirecodes/kiirecodes/output/github-contribution-grid-snake.svg" />
+  <img src="https://raw.githubusercontent.com/kiirecodes/kiirecodes/dist/github-contribution-grid-snake.svg" />
 </p>
 
 ---
