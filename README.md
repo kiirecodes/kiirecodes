@@ -12,7 +12,7 @@
 
 ## About
 
-Self-taught systems programmer and backend engineer based in Uganda, currently pursuing a B.Sc. in Information Systems & Technology at Makerere University and working as a Software Developer at **AIBOS Uganda**.
+Self-taught systems programmer and backend engineer based in Uganda, currently pursuing a B.Sc. in Information Systems & Technology at Makerere University .
 
 Creator of **[Zypher](https://github.com/zypher-org/zypher)** — a batteries-included web framework written in Zig with zero hidden allocations and full control-flow transparency. Author of **[0xkiire.com](https://0xkiire.com)**, a technical blog with 40+ in-depth articles on systems programming, concurrency, graphics, and OS internals — each with working code examples in C, Zig, and Rust. Podcast host and community builder for low-level programming.
 
