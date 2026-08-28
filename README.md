@@ -20,52 +20,16 @@ I write clean, maintainable code, follow best practices (SOLID design, unit/regr
 
 ---
 
-## Experience
-
-**Software Engineer** — AIBOS Uganda, Kampala, Uganda `Dec 2025 – Jul 2026`
-- Built and deployed scalable REST APIs supporting 10k+ daily users, improving response time by 25% (FastAPI, GCP, Firestore, Pydantic)
-- Refactored legacy modules into reusable components, reducing bug reports by 37% and improving maintainability (TypeScript, React Native, Next.js)
-- Implemented CI/CD pipelines to automate testing and deployment, cutting release time from 2 hours to 20 minutes (GitHub Actions, Docker, Git hooks)
-- Collaborated with Product and UX in Agile/Scrum teams, delivering features from requirements through production support
-
----
-
 ## Technical Skills
 
 **Languages**
-C · C++ · Rust · Zig · Go · Python · Assembly (x86/RISC-V) · JavaScript · TypeScript · Java · HTML/CSS
-
-**Frameworks & Libraries**
-React · Next.js · Node.js/Express · Django · FastAPI · Flask · Axum · Actix (Rust) · Phoenix (Elixir) · Tokio · Convex · Gin · React Native · CMake
-
-**Databases**
-PostgreSQL · MySQL · MongoDB · MariaDB · Firestore
-
-**Cloud & DevOps**
-AWS · GCP · Azure · Docker · Kubernetes · CI/CD
+C · C++ · Rust · Zig · Go · Python · Assembly (x86/RISC-V) · JavaScript · TypeScript · Java . C#
 
 **Systems Programming**
 Memory management · Virtual memory & paging · I/O multiplexing · Concurrency primitives · File systems · mmap · io_uring · Atomics · Lock-free algorithms
 
 **Graphics Programming**
-SDL2 · Vulkan · ECS architecture · Immediate mode rendering · PBR rendering · GLSL shaders
-
-**Developer Tools & Practices**
-Git · GitHub Actions · REST APIs · Microservices · Agile/Scrum · Unit Testing (PyTest) · Arch Linux · Neovim · strace · perf · AddressSanitizer · Valgrind · GDB · QEMU
-
----
-
-## Education
-
-**B.Sc. Information Systems and Technology** — Makerere University, Uganda `2025 – Present`
-Key modules: Networking and Cybersecurity, Web Programming and Technologies, Database Management Systems and Design, Database Architecture, System Administration, CCNA
-
-**Certifications / Training**
-- Introduction to Computer Science — Harvard CS50x (Online) `2023`
-- Introduction to Web Programming — Harvard CS50w (Online) `2023`
-- Introduction to Deep Learning — MIT OpenCourseWare (Online) `2024`
-- Meta Front-End Developer Professional Certificate — Coursera `2024`
-
+SDL2 · Vulkan · ECS architecture · Immediate mode rendering · PBR rendering · GLSL shaders . Raylib
 ---
 
 ## Projects
@@ -73,10 +37,10 @@ Key modules: Networking and Cybersecurity, Web Programming and Technologies, Dat
 **[Zypher](https://github.com/zypher-org/zypher)** — Open Source Web Framework `2024–Present`
 Django-inspired, batteries-included web framework written in Zig. Feature set spans HTTP routing, ORM, middleware pipeline, templating engine, form validation, authentication, migrations, CLI, and admin interface. Zero hidden allocations, full control-flow transparency.
 
-**Full-Stack Social Networking Web & Mobile App** — `Next.js, React Native, Go, TypeScript, Docker, Redis, WebRTC, FCM, MinIO, JWT, gRPC`
+**[Full-Stack Social Networking Web & Mobile App](https://github.com/muk-connect/muk-connect)** — `Next.js, React Native, Go, TypeScript, Docker, Redis, WebRTC, FCM, MinIO, JWT, gRPC`
 Built a responsive social networking platform with secure login, role-based access, and CRUD functionality. Reduced page load time by ~30% using code-splitting and optimized database queries.
 
-**Adaptive AI E-Learning Platform** — `Go, Next.js, TypeScript, React Native, PostgreSQL, Redis, WebSockets, gVisor, Resend, OAuth, OpenID Connect, JWT, OpenRouter, SSR`
+**[Adaptive AI E-Learning Platform](https://github.com/kiirecodes/edu-joy)** — `Go, Next.js, TypeScript, React Native, PostgreSQL, Redis, WebSockets, gVisor, Resend, OAuth, OpenID Connect, JWT, OpenRouter, SSR`
 A boot.dev-style e-learning platform for programming and math, built as a Go clean-architecture monolith with a Next.js frontend and React Native mobile client. Uses AI models to generate revision exercises and flashcards, plan spaced-repetition practice, and simplify explanations based on individual learning ability. Includes gamification, a sandboxed code execution environment (gVisor) with a CLI submission client, and real-time features over WebSockets.
 
 **[bug-track](https://github.com/kiirecodes/bug-track)** — Issue Management System `2024`
