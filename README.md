@@ -12,11 +12,9 @@
 
 ## About
 
-Results-driven Software Engineer with experience designing, building, and deploying scalable applications and micro-services across the full stack — from REST APIs and cloud infrastructure to low-level systems code. Currently pursuing a B.Sc. in Information Systems & Technology at Makerere University.
+Results-driven Software Engineer with experience designing, building, and deploying scalable applications and micro-services across the full stack — from REST APIs and cloud infrastructure to low-level systems code.
 
 Creator of **[Zypher](https://github.com/zypher-org/zypher)** — a batteries-included web framework written in Zig with zero hidden allocations and full control-flow transparency. Author of **[0xkiire.com](https://0xkiire.com)**, a technical blog with 40+ in-depth articles on systems programming, concurrency, graphics, and OS internals, each with working code examples in C, Zig, and Rust. Podcast host and community builder for low-level programming.
-
-I write clean, maintainable code, follow best practices (SOLID design, unit/regression/integration testing, CI/CD), and enjoy working across the stack — from product-facing web apps to memory allocators.
 
 ---
 
@@ -30,6 +28,7 @@ Memory management · Virtual memory & paging · I/O multiplexing · Concurrency 
 
 **Graphics Programming**
 SDL2 · Vulkan · ECS architecture · Immediate mode rendering · PBR rendering · GLSL shaders . Raylib
+
 ---
 
 ## Projects
