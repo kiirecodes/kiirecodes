@@ -2,7 +2,6 @@
 
 <p align="center">
   Software Engineer &nbsp;·&nbsp; Systems Programmer &nbsp;·&nbsp; Open Source Developer<br>
-  Kampala, Uganda &nbsp;·&nbsp;
   <a href="mailto:0xkiire@proton.me">0xkiire@proton.me</a> &nbsp;·&nbsp;
   <a href="https://0xkiire.com">0xkiire.com</a> &nbsp;·&nbsp;
   <a href="https://twitter.com/coding_simply">@coding_simply</a>
@@ -11,43 +10,23 @@
 ---
 
 ## About
-
-Results-driven Software Engineer with experience designing, building, and deploying scalable applications and micro-services across the full stack — from REST APIs and cloud infrastructure to low-level systems code.
-
-Creator of **[Zypher](https://github.com/zypher-org/zypher)** — a batteries-included web framework written in Zig with zero hidden allocations and full control-flow transparency. Author of **[0xkiire.com](https://0xkiire.com)**, a technical blog with 40+ in-depth articles on systems programming, concurrency, graphics, and OS internals, each with working code examples in C, Zig, and Rust. Podcast host and community builder for low-level programming.
+Creator of **[Zypher](https://github.com/zypher-org/zypher)**  a batteries-included web framework written in Zig with zero hidden allocations and full control-flow transparency. Author of **[0xkiire.com](https://0xkiire.com)**, a technical blog with 40+ in-depth articles on systems programming, concurrency, graphics, and OS internals, each with working code examples in C, Zig, and Rust. Podcast host and community builder for low-level programming.
 
 ---
 
 ## Technical Skills
 
 **Languages**
-C · C++ · Rust · Zig · Go · Python · Assembly (x86/RISC-V) · JavaScript · TypeScript · Java . C#
+C · C++ · Rust · Zig · Go · Python · Assembly (x86_64/RISC-V) · TypeScript
 
 **Systems Programming**
 Memory management · Virtual memory & paging · I/O multiplexing · Concurrency primitives · File systems · mmap · io_uring · Atomics · Lock-free algorithms
-
-**Graphics Programming**
-SDL2 · Vulkan · ECS architecture · Immediate mode rendering · PBR rendering · GLSL shaders . Raylib
-
 ---
 
 ## Projects
 
-**[Zypher](https://github.com/zypher-org/zypher)** — Open Source Web Framework `2024–Present`
+**[Zypher](https://github.com/zypher-org/zypher)** : Open Source Web Framework `2024–Present`
 Django-inspired, batteries-included web framework written in Zig. Feature set spans HTTP routing, ORM, middleware pipeline, templating engine, form validation, authentication, migrations, CLI, and admin interface. Zero hidden allocations, full control-flow transparency.
-
-**[Full-Stack Social Networking Web & Mobile App](https://github.com/muk-connect/muk-connect)** — `Next.js, React Native, Go, TypeScript, Docker, Redis, WebRTC, FCM, MinIO, JWT, gRPC`
-Built a responsive social networking platform with secure login, role-based access, and CRUD functionality. Reduced page load time by ~30% using code-splitting and optimized database queries.
-
-**[Adaptive AI E-Learning Platform](https://github.com/kiirecodes/edu-joy)** — `Go, Next.js, TypeScript, React Native, PostgreSQL, Redis, WebSockets, gVisor, Resend, OAuth, OpenID Connect, JWT, OpenRouter, SSR`
-A boot.dev-style e-learning platform for programming and math, built as a Go clean-architecture monolith with a Next.js frontend and React Native mobile client. Uses AI models to generate revision exercises and flashcards, plan spaced-repetition practice, and simplify explanations based on individual learning ability. Includes gamification, a sandboxed code execution environment (gVisor) with a CLI submission client, and real-time features over WebSockets.
-
-**[bug-track](https://github.com/kiirecodes/bug-track)** — Issue Management System `2024`
-Lightweight bug tracking system written in Go with a clean RESTful API. Supports issue tracking, labelling, assignment, and project management workflows.
-
-**[repo-pulse-lite](https://github.com/kiirecodes/repo-pulse-lite)** — Repository Analytics `2024`
-GitHub repository activity tracker and analytics dashboard in JavaScript. Integrates the GitHub API for real-time aggregation of commits, pull requests, and repository health metrics.
-
 ---
 
 ## Writing
