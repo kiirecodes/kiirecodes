@@ -10,6 +10,7 @@
 ---
 
 ## About
+
 Creator of **[Zypher](https://github.com/zypher-org/zypher)**  a batteries-included web framework written in Zig with zero hidden allocations and full control-flow transparency. Author of **[0xkiire.com](https://0xkiire.com)**, a technical blog with 40+ in-depth articles on systems programming, concurrency, graphics, and OS internals, each with working code examples in C, Zig, and Rust. Podcast host and community builder for low-level programming.
 
 ---
@@ -21,12 +22,14 @@ C · C++ · Rust · Zig · Go · Python · Assembly (x86_64/RISC-V) · TypeScrip
 
 **Systems Programming**
 Memory management · Virtual memory & paging · I/O multiplexing · Concurrency primitives · File systems · mmap · io_uring · Atomics · Lock-free algorithms
+
 ---
 
 ## Projects
 
 **[Zypher](https://github.com/zypher-org/zypher)** : Open Source Web Framework `2024–Present`
 Django-inspired, batteries-included web framework written in Zig. Feature set spans HTTP routing, ORM, middleware pipeline, templating engine, form validation, authentication, migrations, CLI, and admin interface. Zero hidden allocations, full control-flow transparency.
+
 ---
 
 ## Writing
